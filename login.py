@@ -1,4 +1,4 @@
-import getpass
+ import getpass
 
 USER_DB = {
     "admin": "admin@123",
@@ -16,7 +16,7 @@ def login():
     if authenticate(username, password):
         print(f"\nWelcome, {username}! You have successfully logged in \n")
     else:
-        print("\n Invalid username or password.Access denied \n")
+        print("\n Invalid username or password.User Access denied \n")
 
 if __name__ == "__main__":
     login()
